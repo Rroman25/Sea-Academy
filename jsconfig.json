@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "module": "commonJS",
+    "target": "es6",
+    "checkJs": false,
+    "resolveJsonModule": true,
+    "paths": {
+      "~/*": ["./*"],
+      "@/*": ["./*"],
+      "@@/*": ["./*"],
+      "~~/*": ["./*"]
+    }
+  },
+  "typeAcquisition": {
+    "include": ["index", "nuxt"]
+  },
+  "exclude": ["node_modules"]
+}
