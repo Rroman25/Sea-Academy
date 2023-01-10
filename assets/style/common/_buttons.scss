@@ -1,0 +1,29 @@
+.button {
+  border: 0;
+  outline: none;
+  box-shadow: $global300 / 60 $global300 / 60 $global300 / 12 -.4rem #000;
+  transition: all .2s;
+  &__background {
+    &_black {
+      background-color: $black;
+    }
+  }
+  &__size {
+    &_big {
+      padding: $global300 / 12 $global300 / 6.84931507;
+    }
+    &_medium {
+      padding: $global300 / 10;
+    }
+    &_small {
+      padding: $global300 / 20 $global300 / 10;
+    }
+    &_extrabig {
+      padding: $global300 / 10.588235 $global300 / 4.5;
+    }
+    &_justbig {
+      padding: $global300 / 10 $global300 / 7.2;
+    }
+  }
+  &__border {}
+}

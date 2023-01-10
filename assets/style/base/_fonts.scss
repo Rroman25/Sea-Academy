@@ -1,0 +1,138 @@
+// Fonts from Ui KIT
+@import 'grid.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+$helvetica-neue-bold: Helvetica-NeueBold;
+$helvetica-neue: Helvetica-Neue;
+$helvetica-neue-regular: Helvetica-Neue-Regular;
+$helvetica-regular: HelveticaRegular;
+$helvetica-bold: HelveticaBold;
+$roboto-black: Roboto-Black;
+$roboto-bold: Roboto-Bold;
+$roboto-light: Roboto-Light;
+$roboto-medium: Roboto-Medium;
+$roboto-regular: Roboto-Regular;
+$roboto-thin: Roboto-Thin;
+$roboto-italic: Roboto-Italic;
+$montserrat-semi-bold: Montserrat-SemiBold;
+$raleway-black: Raleway-Black;
+$raleway-bold: Raleway-Bold;
+$raleway-medium: Raleway-Medium;
+$raleway-exta-bold: Raleway-ExtraBold;
+$outfit-bold: Outfit-Bold;
+$outfit-exta-bold: Outfit-ExtraBold;
+
+$ff-300: $roboto-light;
+$ff-400: $roboto-regular;
+$ff-500: $roboto-medium;
+$ff-700: $roboto-bold;
+
+.fonts {
+  &__montserrat-semi-bold {
+    font-family: $montserrat-semi-bold;
+  }
+  &__helvetica-neue {
+    font-family: $helvetica-neue;
+    &_bold {
+      font-family: $helvetica-neue-bold;
+    }
+    &_regular {
+      font-family: $helvetica-neue-regular;
+    }
+  }
+  &__helvetica {
+    &_regular {
+      font-family: $helvetica-regular;
+    }
+    &_bold {
+      font-family: $helvetica-bold;
+    }
+  }
+  &__h1 {
+    font-size: px2rem(80);
+    font-family: $roboto-light;
+    line-height: px2rem(92);
+  }
+  &__h2 {
+    font-size: px2rem(60);
+    font-family: $roboto-light;
+    line-height: px2rem(78);
+  }
+  &__h3 {
+    font-size: px2rem(40);
+    font-family: $roboto-light;
+    line-height: px2rem(52);
+  }
+  &__h4 {
+    font-size: px2rem(30);
+    font-family: $roboto-light;
+    line-height: px2rem(39);
+  }
+  &__h5 {
+    font-size: px2rem(24);
+    font-family: $roboto-regular;
+    line-height: px2rem(28.13);
+  }
+  &__h6 {
+    font-size: px2rem(20);
+    font-family: $roboto-regular;
+    line-height: px2rem(28);
+  }
+  &__h7 {
+    font-size: px2rem(16);
+    font-family: $roboto-regular;
+    line-height: px2rem(18.4);
+  }
+  &__text1 {
+    font-size: px2rem(18);
+    font-family: $helvetica-regular;
+  }
+  &__text2 {
+    font-size: px2rem(16);
+    font-family: $helvetica-regular;
+  }
+  &__text3 {
+    font-size: px2rem(16);
+    font-family: $helvetica-bold;
+  }
+  &__text4 {
+    font-size: px2rem(14);
+    font-family: $helvetica-regular;
+  }
+  &__text5 {
+    font-size: px2rem(14);
+    font-family: $helvetica-bold;
+  }
+  &__text6 {
+    font-size: px2rem(12);
+    font-family: $helvetica-regular;
+  }
+
+  @media (max-width: $mobile-break-point) {
+    &__h1 {
+      font-size: px2rem(28);
+    }
+    &__h2 {
+      font-size: px2rem(22);
+    }
+    &__h3 {
+      font-size: px2rem(20);
+    }
+    &__h4 {
+      font-size: px2rem(18);
+    }
+    &__h5 {
+      font-size: px2rem(16);
+    }
+    &__text1 {
+      font-size: px2rem(14);
+      font-family: $helvetica-bold;
+    }
+    &__text2 {
+      font-size: px2rem(14);
+    }
+    &__text3 {
+      font-size: px2rem(13);
+      font-family: $helvetica-regular;
+    }
+  }
+}

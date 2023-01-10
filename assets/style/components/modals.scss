@@ -1,0 +1,44 @@
+@import "../base/grid";
+@import "../base/colors";
+
+.modal-content {
+  &.modal-container {
+    background-color: $white_d;
+    margin-left: $global300 / 9;
+    margin-right: $global300 / 9;
+  }
+  &__button-cross {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    float: right;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: transparent;
+    &-svg{
+      cursor: pointer;
+      width: $global300 / 13;
+      height: $global300 / 13;
+      margin-left: auto;
+      @media (max-width: 768px) {
+        width: $global300 / 9;
+        height: $global300 / 9;
+      }
+    }
+  }
+  &__button {
+    width: 60%;
+    box-sizing: border-box;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+    &-disabled {
+      cursor: no-drop;
+      opacity: 0.7;
+    }
+  }
+  &__caption{
+    display: flex;
+  }
+}

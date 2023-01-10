@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /*?
+Disallow: /personal
+Allow: /*.css
+Allow: /*.js
+Allow: /*.jpg
+Allow: /*.png
+Allow: /*.gif
+Sitemap: https://p-food.ru/sitemap.xml

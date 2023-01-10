@@ -1,0 +1,31 @@
+@import '~assets/style/mixins';
+
+.hover-animation {
+  transition: opacity 0.3s;
+  cursor: pointer;
+
+  @include hover-guard {
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+  &:active {
+    opacity: 0.8;
+  }
+}
+.translate-animation {
+  @media (min-width: $mobile-break-point + 1px) {
+    transition: transform 0.3s;
+    cursor: pointer;
+    transform: translateY(px2rem(10));
+
+    @include hover-guard {
+      &:hover {
+        transform: translateY(0);
+      }
+    }
+    &:active {
+      opacity: 0.8;
+    }
+  }
+}

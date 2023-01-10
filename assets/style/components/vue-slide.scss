@@ -1,0 +1,33 @@
+@import '../base/grid';
+@import '../base/fonts';
+@import '../base/colors';
+
+.vue-slider-process {
+  background-color: $green!important;
+}
+
+.vue-slider-dot-handle {
+  background-color: $green!important;
+  box-shadow: none!important;
+}
+
+.vue-slide-piecewise {
+  border-right: 1px solid #191a1e;
+  border-left: 1px solid #191a1e;
+}
+.vue-slider-dot-tooltip-text {
+  font-size: $global100 / 6;
+  font-family: $extrabold;
+}
+.vue-slider-dot-tooltip-inner {
+  background-color: rgba(0,0,0,0)!important;
+  border: none!important;
+  color: #191a1e!important;
+}
+.vue-slider-dot {
+  width: $global300 / 50!important;
+  height: $global300 / 50!important;
+}
+.vue-slider-dot-tooltip-inner:after {
+  border-color: rgba(0,0,0,0)!important;
+}
